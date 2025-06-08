@@ -1,0 +1,127 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.left {
+  flex: 1;
+  background: url('/public/bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 22px;
+  font-style: italic;
+  max-width: 400px;
+}
+
+.right {
+  flex: 1;
+  background: linear-gradient(to bottom right, #babdc3, #c5c8cf);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+.signupButton {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #1e3c72;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.divider {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.googleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  color: #444;
+  gap: 10px;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.googleIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.toggleText {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.toggleLink {
+  color: #1e3c72;
+  cursor: pointer;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.eye {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
