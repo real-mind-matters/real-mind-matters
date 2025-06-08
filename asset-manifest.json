@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/real-mind-matters/static/css/main.30c7bbfa.css",
+    "main.js": "/real-mind-matters/static/js/main.0ab76773.js",
+    "static/media/bg.jpg": "/real-mind-matters/static/media/bg.f75651ac685d0bd00720.jpg",
+    "index.html": "/real-mind-matters/index.html",
+    "main.30c7bbfa.css.map": "/real-mind-matters/static/css/main.30c7bbfa.css.map",
+    "main.0ab76773.js.map": "/real-mind-matters/static/js/main.0ab76773.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30c7bbfa.css",
+    "static/js/main.0ab76773.js"
+  ]
+}
